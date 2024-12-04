@@ -3,46 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Connor Bescos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Connor Bescos</h1>
-        <h2>Cloud Solutions Architect & Director of Professional Services at DivergeIT</h2>
-    </header>
-    <main>
-        <img src="/profile.JPG" alt="Profile Image" id="profile-image">
-        <section id="about-me">
-            <h3>About Me</h3>
-            <p>I'm a dedicated husband and father of two, living in the beautiful Palos Verdes Estates. When I'm not spending time with my family, I can often be found tinkering and working on various projects.</p>
-        </section>
-        <section id="professional-background">
-            <h3>Professional Background</h3>
-            <p>My passion for technology and innovation has led me to my current role as a Cloud Solutions Architect and Director of Professional Services at DivergeIT. I specialize in creating customized cloud solutions, leading professional teams, and building strong relationships with clients.</p>
-        </section>
-        <section id="personal-interests">
-            <h3>Personal Interests</h3>
-            <p>I am an avid tinkerer and love to work on different projects, be it electronics, home imrpovement, woodworking, or any other hands-on endeavor. This hobby not only fuels my creativity but also provides a valuable outlet to explore and learn new things.</p>
-        </section>
-        <section id="projects">
-            <h3>Projects</h3>
-            <p>
-                <strong>Project A:</strong> <a href="project1.html">Video Wall Setup</a><br>
-                <strong>Project B:</strong> Description of Project B
-            </p>
-        </section>
-        <section id="contact">
-            <h3>Contact</h3>
-            <p>
-                <strong>Email:</strong> <a href="mailto:csbescos@gmail.com">csbescos@gmail.com</a><br>
-                <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/connor-bescos-29959b53/">LinkedIn</a><br>
-                <strong>Twitter:</strong> <a href="https://twitter.com/connorbescos">@connorbescos</a>
-            </p>
-        </section>
-    </main>
+    <nav>
+        <div class="nav-brand">CB</div>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Connor Bescos</h1>
+            <p class="subtitle">Cloud Solutions Architect & Director of Professional Services</p>
+        </div>
+    </section>
+
+    <section id="about" class="content-section">
+        <div class="container">
+            <div class="text-content">
+                <h2>About</h2>
+                <p>A dedicated husband and father of two based in Palos Verdes Estates. Passionate about technology, innovation, and creating solutions that drive business transformation.</p>
+            </div>
+            <div class="image-content">
+                <img src="profile.JPG" alt="Connor Bescos" class="profile-image">
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="content-section dark">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <h3>Cloud Architecture</h3>
+                    <p>Specializing in creating customized cloud solutions that drive digital transformation and business growth.</p>
+                </div>
+                <div class="experience-card">
+                    <h3>Leadership</h3>
+                    <p>Leading professional services teams and building strong client relationships at DivergeIT.</p>
+                </div>
+                <div class="experience-card">
+                    <h3>Innovation</h3>
+                    <p>Bringing creativity and strategic thinking to both technical solutions and team management.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section interests">
+        <div class="container">
+            <h2>Personal Interests</h2>
+            <p class="interest-text">Beyond technology, I'm an avid tinkerer who loves hands-on projects - from electronics and home improvement to woodworking. This passion for creating and problem-solving provides valuable insights that enhance my professional work.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="content-section dark">
+        <div class="container">
+            <h2>Connect</h2>
+            <div class="contact-links">
+                <a href="mailto:csbescos@gmail.com" class="contact-button">Email</a>
+                <a href="https://www.linkedin.com/in/connor-bescos-29959b53/" class="contact-button">LinkedIn</a>
+                <a href="https://twitter.com/connorbescos" class="contact-button">Twitter</a>
+            </div>
+        </div>
+    </section>
+
     <footer>
-        <p>© 2023 Connor Bescos</p>
+        <div class="container">
+            <p>© 2024 Connor Bescos</p>
+        </div>
     </footer>
 </body>
 </html>
